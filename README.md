@@ -109,7 +109,7 @@ exit
 - 檔案內容寫入 `data/<filename>`。
 - 建立、寫入或修改權限時，Server 會將 owner、group 與六位數字權限寫入 `data/<filename>.meta`。
 - **目前重啟時只載入檔案內容，不會還原 `.meta` 的權限資料。** 載入的檔案會被設為 owner `Ken`、group `AOS`，且六項權限全部開啟。
-- 約 1 GB 的本機測試檔 `data/test.c` 及其 `.meta` 已排除於版本控制之外，不包含在 GitHub 儲存庫中。
+
 
 ## 目前限制
 
