@@ -1,0 +1,7 @@
+/client
+/server
+/.vscode/
+*.o
+*.exe
+/data/test.c
+/data/test.c.meta
